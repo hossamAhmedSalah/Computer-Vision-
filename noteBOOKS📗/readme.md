@@ -11,7 +11,7 @@ Color spaces
 - HLS (Huc, Lightness, Saturation) 
 in this notebok I used several images of ballons to compare them in various filters and masks 
 to show which is better in detecting the color for this case 'pink'
-* [ballons🎈](noteBOOKS📗/balloons.ipynb)
+* [ballons🎈](balloons.ipynb)
 ---------------------------------------------------------
 
 
