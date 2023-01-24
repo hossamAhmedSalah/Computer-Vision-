@@ -29,7 +29,7 @@ contains some studies of how
 - hysteresis thresholding 
 - a function to plot one row of images and another one to plot a grid of images 
 **ploting one row**
-```
+```python
 def plot2(images, rows, cols, labels = None, sizex = 20, sizey = 10):
     if len(images) < rows * cols:
         print("Number of images is less than the number of subplots.")
@@ -45,7 +45,7 @@ def plot2(images, rows, cols, labels = None, sizex = 20, sizey = 10):
     plt.show()
 ```
 **ploting a grid of images**
-```
+```python
 def plot_images(images, rows, cols, labels = None, sizex = 20, sizey = 10):
     if len(images) < rows * cols and rows != 1:
         print("Number of images is less than the number of subplots. or rows = 1")
@@ -62,7 +62,7 @@ def plot_images(images, rows, cols, labels = None, sizex = 20, sizey = 10):
 ```
 note that 💡 ```labels```, ```sizex```, ```sizey``` are optional parameters
 that mean you can use it as follow :
-```
+```python
 plot2([image1, image2], 1, 2, ['sunny', 'not sunny'])
 ```
 or 
