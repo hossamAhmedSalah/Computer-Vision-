@@ -96,7 +96,8 @@ The function then uses ```np.fft.fftshift()``` to shift the zero-frequency compo
 In this way, the resulting image that is returned from this function is a frequency spectrum transform of the input image which shows the different frequency components that make up the original image.
 
 
-link to the note book that implement it [link](Part 1- Introduction to Computer Vision/1_2_Convolutional_Filters_Edge_Detection/1. Fourier Transform.ipynb) 
+link to the note book that implement it 
+[link](Part 1- Introduction to Computer Vision/1_2_Convolutional_Filters_Edge_Detection/1. Fourier Transform.ipynb) 
 
 
 
