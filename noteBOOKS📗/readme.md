@@ -97,7 +97,7 @@ In this way, the resulting image that is returned from this function is a freque
 
 
 link to the note book that implement it 
-[link](Part 1- Introduction to Computer Vision/1_2_Convolutional_Filters_Edge_Detection/1. Fourier Transform.ipynb) 
+[link](https://github.com/MarwaQabeel/Udacity-Computer-Vision-Nanodegree/blob/1096fd2b952f09927c07910e48a40d2566a942d1/Part%201-%20Introduction%20to%20Computer%20Vision/1_2_Convolutional_Filters_Edge_Detection/1.%20Fourier%20Transform.ipynb) 
 
 
 
