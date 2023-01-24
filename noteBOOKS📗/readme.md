@@ -75,6 +75,24 @@ plot2([image1, image2], 1, 2, sizex = 40, sizey = 60)
 '''
 in the last case the images takes a default name as image_<image_index>
 we can also ommit the ```sizex``` and ```sizey```
+----------------------------------------------------------------------------
+## Fourier transformation
+```python
+# perform a fast fourier transform and create a scaled, frequency transform image
+def ft_image(norm_image):
+    '''This function takes in a normalized, grayscale image
+       and returns a frequency spectrum transform of that image. '''
+    f = np.fft.fft2(norm_image)
+    fshift = np.fft.fftshift(f)
+    frequency_tx = 20*np.log(np.abs(fshift))
+    
+    return frequency_tx
+  ```
+  ft_image()  takes in a grayscale image and applies a **fast Fourier transform (FFT)** to it using the ```np.fft.fft2()``` function. The FFT is a mathematical technique that can be used to decompose an image into its sine and cosine components, effectively breaking it down into its different frequency components.
+
+The function then uses ```np.fft.fftshift()``` to shift the zero-frequency component to the center of the image. This is done so that the resulting frequency spectrum is more easily interpretable. The absolute value of the shifted FFT is then taken and the logarithm is applied to increase the visibility of the frequency components.
+
+In this way, the resulting image that is returned from this function is a frequency spectrum transform of the input image which shows the different frequency components that make up the original image.
 
 
 
