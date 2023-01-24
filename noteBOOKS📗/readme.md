@@ -69,13 +69,13 @@ that mean you can use it as follow :
 ```python
 plot2([image1, image2], 1, 2, ['sunny', 'not sunny'])
 ```
-or 
-'''python
+or
+```python
 plot2([image1, image2], 1, 2, sizex = 40, sizey = 60)
-
-'''
+```
 in the last case the images takes a default name as image_<image_index>
 we can also ommit the ```sizex``` and ```sizey```
+
 ----------------------------------------------------------------------------
 ## Fourier transformation
 ```python
