@@ -1,7 +1,7 @@
 ## Cv001 
 demostrating some usage of _opencv_ in dealing with images and videos input 
 and doing some Color threshold to remove the background from an image and replace it 
- [notebook cv001](/cv001.ipynb)
+[notebook cv001](/cv001.ipynb)
 --------------------------------------------------------
 How can different color spaces affect the process of detecting some colors easily ? 
 --------------------------------------------------------
@@ -11,11 +11,11 @@ Color spaces
 - HLS (Huc, Lightness, Saturation) 
 in this notebok I used several images of ballons to compare them in various filters and masks 
 to show which is better in detecting the color for this case 'pink'
-* [ballons🎈](balloons.ipynb)
+[ballons🎈](balloons.ipynb)
 ---------------------------------------------------------
 How can different between Night and Day in images using features extracted from the images ? 
 --------------------------------------------------------
-*[day and night🌞🌚](dayAndNight.ipynb)
+[day and night🌞🌚](dayAndNight.ipynb)
 ---------------------------------------------------------
 Applying some filters and see how they help in edge detecting
 --------------------------------------------------------
